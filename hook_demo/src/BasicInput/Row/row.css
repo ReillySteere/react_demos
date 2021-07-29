@@ -1,0 +1,7 @@
+.row {
+  width: 20%;
+  margin: 30px auto;
+  display: flex;
+
+  justify-content:space-evenly;
+}

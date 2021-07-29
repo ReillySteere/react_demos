@@ -1,0 +1,29 @@
+{
+  "name": "react_demos",
+  "version": "0.1.0",
+  "description": "React Round Up Demo Repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "eslint ."
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReillySteere/react_demos.git"
+  },
+  "keywords": [
+    "React",
+    "Examples"
+  ],
+  "author": "Reilly Steere",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReillySteere/react_demos/issues"
+  },
+  "homepage": "https://github.com/ReillySteere/react_demos#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
