@@ -7,7 +7,7 @@ import Row from './Row/Row';
 
 import './BasicInput.css';
 
-export default function UseStateHook() {
+export default function UseHooks() {
   const [name, setName] = useState('Mary');
 
   function handleNameChange(e) {

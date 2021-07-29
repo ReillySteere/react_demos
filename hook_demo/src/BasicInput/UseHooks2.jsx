@@ -2,16 +2,14 @@
 // ReactConf 2018 Introduction Presentation and modified by Reilly Steere
 // Source: https://youtu.be/dpw9EHDh2bM
 
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import Row from './Row/Row';
-import ThemeContext from '../ThemeContext';
 
 import './BasicInput.css';
 
-export default function UseStateHook3() {
+export default function UseHooks2() {
   const [name, setName] = useState('Mary');
   const [surname, setSurname] = useState('Poppins');
-  const theme = useContext(ThemeContext);
 
   function handleNameChange(e) {
     setName(e.target.value);
@@ -22,7 +20,7 @@ export default function UseStateHook3() {
   }
 
   return (
-    <section className={theme}>
+    <section className="useStateHookSection">
       <span>
         Use State Hook - Now with two state variables
       </span>

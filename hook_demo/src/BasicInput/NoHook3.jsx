@@ -40,7 +40,7 @@ export default class NoHook3 extends React.Component {
         { (theme) => (
           <section className={theme}>
             <span>
-              No Hook - Now with two state variables
+              No Hook - Now with theme provided by external actor
             </span>
             <Row label="Name">
               <input
